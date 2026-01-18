@@ -1,0 +1,1 @@
+import{f as r,a}from"../chunks/BI-iwapD.js";const t=(async()=>({})),l=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));var p=r("<p>CV</p>");function c(o,n){var e=p();a(o,e)}export{c as component,l as universal};
