@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { Menu, Sun, Moon } from "lucide-svelte";
+    import { Menu, Sun, Moon } from "@lucide/svelte/icons";
 </script>
 
 <header class="navbar bg-base-100 shadow-sm">
