@@ -1,5 +1,6 @@
 <script lang="ts">
-    import { Menu, Sun, Moon } from "@lucide/svelte/icons";
+    import { Menu } from "@lucide/svelte/icons";
+    import { resolve } from "$app/paths";
 </script>
 
 <header class="navbar bg-base-100 shadow-sm">
@@ -9,9 +10,9 @@
                 <Menu />
             </div>
             <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                <li><a href="/">Home</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/cv">CV</a></li>
+                <li><a href={resolve('/')} target="_self">Home</a></li>
+                <li><a href={resolve('/projects')} target="_self">Projects</a></li>
+                <li><a href={resolve('/cv')} target="_self">CV</a></li>
             </ul>
         </div>
     </div>
