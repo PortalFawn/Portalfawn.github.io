@@ -3,7 +3,7 @@
     import { resolve } from "$app/paths";
 </script>
 
-<header class="navbar bg-base-100 shadow-sm">
+<header class="navbar bg-base-300 shadow-sm">
     <div class="navbar-start">
         <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-circle">
