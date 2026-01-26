@@ -1,0 +1,1 @@
+import{f as m,a as p}from"../chunks/De5Rps9z.js";import"../chunks/BVBcsY5J.js";var t=m(`<main class="hero p-8"><div class="max-w-md"><h1 class="text-5xl font-bold">Hi, I'm Ethan</h1> <p class="py-6">Full Stack Web Developer</p></div></main>`);function l(a){var o=t();p(a,o)}export{l as component};
